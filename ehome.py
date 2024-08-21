@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 '''
 This is the main file for the ehome project. It will be the file that is run to start the program.
 
@@ -24,6 +25,9 @@ def main():
     lcd.clear()
 
     # Displaying the welcome message
-    lcd.write_message("Welcome to ehome!")
-    time.sleep(2)
+    lcd.message("Welcome ehome!")
+    time.sleep(15)
 
+
+if __name__ == '__main__':
+    main()
